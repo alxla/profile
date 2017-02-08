@@ -76,6 +76,11 @@ a:hover {
   padding: 0px 20px;
 }
 
+.list-nobullet > li {
+  list-style-type:none;
+  padding: 0px 20px;
+}
+
 .list-inline {
   padding-left: 0px;
   text-align: center;
@@ -104,4 +109,16 @@ a:hover {
   height: 200px;
   width: 200px;
   margin: auto;
+}
+
+#sidebar {
+  background-color: #A7BED6;
+  position: fixed;
+  width: 300px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 300px;
 }
