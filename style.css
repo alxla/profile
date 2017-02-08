@@ -56,7 +56,7 @@ td{
 }
 
 a:hover {
-    background-color: #D7E3EF;
+    color: #D7E3EF;
 }
 
 .container {
@@ -100,6 +100,54 @@ a:hover {
 .img-musician {
   height: 150px;
   width: 150px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0,0,0,0.5);
+  transition: opacity 200ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 75px auto;
+  padding: 20px;
+  border: 1px solid #A7BED6;
+  width: 300px;
+  position: relative;
+  background-color: #D7E3EF;
+}
+
+.close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 20px;
+  right: 20px;
+  opacity: 0.8;
+  transition: all 200ms;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #666;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.text-right{
+  text-align: right;
 }
 
 #img-profile {
