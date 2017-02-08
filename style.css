@@ -1,0 +1,106 @@
+body{
+  background-color: #D7E3EF;
+}
+
+h1{
+  color: #30567D;
+  font-family: 'Raleway', sans-serif;
+  font-size: 48px;
+  line-height: 150%;
+  text-align: center;
+}
+
+h2{
+  color: #4E7298;
+  font-family: 'Raleway', sans-serif;
+  line-height: 150%;
+  text-align: center;
+}
+
+h3{
+  color: #4E7298;
+  font-family: 'Raleway', sans-serif;
+  line-height: 120%;
+  text-decoration: underline;
+  text-align: center;
+}
+
+h4{
+  color: #4E7298;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  line-height: 100%;
+}
+
+h5{
+  color: #4E7298;
+  font-weight: 100;
+  font-family: 'Raleway', sans-serif;
+  line-height: 100%;
+}
+p{
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+}
+
+a{
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  line-height: 200%;
+  text-decoration: none;
+}
+
+td{
+  font-family: 'Raleway', sans-serif;
+  line-height: 150%;
+}
+
+a:hover {
+    background-color: #D7E3EF;
+}
+
+.container {
+  width: 700px;   /* Set width */
+  margin: 0 auto; /* Automatically set left/right margins */
+}
+
+.card {
+  background-color: #FFFFFF;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid #A7BED6;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  padding-left: 0px;
+}
+
+.img-margin {
+  margin: 30px;
+}
+
+.img-resize-center {
+  height: 150px;
+  display: block;
+  margin: auto;
+  padding: 0px 30px;
+}
+
+.img-musician {
+  height: 150px;
+  width: 150px;
+}
+
+#img-profile {
+  display: block;
+  border: 5px solid #A7BED6;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
