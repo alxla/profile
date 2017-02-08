@@ -60,7 +60,7 @@ a:hover {
 }
 
 .container {
-  width: 700px;   /* Set width */
+  width: 800px;   /* Set width */
   margin: 0 auto; /* Automatically set left/right margins */
 }
 
@@ -78,6 +78,7 @@ a:hover {
 
 .list-inline {
   padding-left: 0px;
+  text-align: center;
 }
 
 .img-margin {
